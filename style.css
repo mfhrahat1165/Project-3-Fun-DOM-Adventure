@@ -1,0 +1,79 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #e8f0fe;
+        }
+        nav {
+            background-color: #1a3c34;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #f1c40f;
+        }
+        .content {
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #1a3c34;
+            font-size: 40px;
+            animation: fadeIn 1s ease-in;
+        }
+        p {
+            font-size: 18px;
+            color: #2c3e50;
+            line-height: 1.6;
+            transition: color 0.5s ease;
+        }
+        button {
+            padding: 12px 30px;
+            cursor: pointer;
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        #videoContainer {
+            
+            margin-top: 30px;
+            display: none;
+        }
+        button:hover {
+            background-color: #c0392b;
+        }
+        footer {
+            background-color: #1a3c34;
+            color: #ffffff;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+        }
+        footer a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+        footer a:hover {
+            color: #f1c40f;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
